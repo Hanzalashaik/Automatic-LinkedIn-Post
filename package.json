@@ -1,0 +1,19 @@
+{
+  "name": "automatic-linkedin-post",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.14.1",
+    "axios": "^1.7.2",
+    "config": "^3.3.12",
+    "node-cron": "^3.0.3"
+  }
+}
