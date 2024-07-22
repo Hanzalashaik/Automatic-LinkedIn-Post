@@ -116,8 +116,8 @@ async function generateAndPostContent() {
   }
 }
 
-generateAndPostContent();
 // Schedule the task to run every day at 12:00 PM
-// cron.schedule("0 12 * * *", () => {
-//   console.log("Running a task every day at 12:00 PM");
-// });
+cron.schedule("0 12 * * *", () => {
+  console.log("Running a task every day at 12:00 PM");
+  generateAndPostContent();
+});
